@@ -3515,7 +3515,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         this.fb = fb;
         this.http = http;
-        this.baseURI = 'http://localhost:5000/api';
+        this.baseURI = 'http://develophase.gearhostpreview.com/api';
         this.formLogin = this.fb.group({
           UserName: ['', _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required],
           Password: ['', [_angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].required, _angular_forms__WEBPACK_IMPORTED_MODULE_1__["Validators"].minLength(4)]]
